@@ -21,7 +21,6 @@ body{
 }
 
 .container{
-    min-width: 500px;
     height: 50%;
     width: 40%;
     display: flex;
@@ -51,9 +50,10 @@ body{
     align-items: center;
     justify-content: center;
     gap: 2vh;
-/*    
+    flex-wrap: wrap;
+   
     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   
 }
 
